@@ -53,7 +53,7 @@
 				"variable.other"
 			],
 			"settings": {
-				"foreground": "#93A1A1"
+				"foreground": "#788989"
 			}
 		},
 		{
@@ -80,14 +80,14 @@
 				"entity.name.scope-resolution"
 			],
 			"settings": {
-				"foreground": "#93A1A1"
+				"foreground": "#788989"
 			}
 		},
 		{
 			"name": "Function name",
 			"scope": "entity.name.function",
 			"settings": {
-				"foreground": "#93A1A1"
+				"foreground": "#788989"
 			}
 		},
 		{
@@ -153,21 +153,21 @@
 			"name": "Tag name",
 			"scope": "entity.name.tag",
 			"settings": {
-				"foreground": "#93A1A1"
+				"foreground": "#788989"
 			}
 		},
 		{
 			"name": "Tag start/end",
 			"scope": "punctuation.definition.tag",
 			"settings": {
-				"foreground": "#93A1A1"
+				"foreground": "#788989"
 			}
 		},
 		{
 			"name": "Tag attribute",
 			"scope": "entity.other.attribute-name",
 			"settings": {
-				"foreground": "#93A1A1"
+				"foreground": "#788989"
 			}
 		},
 		{

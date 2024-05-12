@@ -12,7 +12,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "speakeasy",
+        "label": "Speakeasy",
         "uiTheme": "vs",
         "path": "./themes/speakeasy-color-theme.json"
       }
