@@ -1,0 +1,21 @@
+{
+  "name": "speakeasy",
+  "displayName": "Speakeasy Color Theme",
+  "description": "Eye friendly color theme inspired by Solarized Light",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "speakeasy",
+        "uiTheme": "vs",
+        "path": "./themes/speakeasy-color-theme.json"
+      }
+    ]
+  }
+}
