@@ -1,7 +1,7 @@
 {
   "name": "speakeasy",
   "displayName": "Speakeasy Color Theme",
-  "description": "Eye friendly color theme inspired by Solarized Light",
+  "description": "Minimalistic color theme based on Solarized Light",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.89.0"
