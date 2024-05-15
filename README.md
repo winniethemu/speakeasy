@@ -2,6 +2,6 @@
 
 A quiet version of the Solarized Light color theme with more grey and less blue.
 
-![speakeasy-screenshot](https://github.com/winniethemu/speakeasy/assets/728719/d2b74883-3df9-462c-8f8a-8ad53af1d1a4)
+<img width="680" alt="screenshot" src="https://github.com/winniethemu/speakeasy/assets/728719/5f2cbcbd-2ab0-432a-b97f-814986af1320">
 
 **Enjoy!**
