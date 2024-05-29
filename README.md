@@ -1,7 +1,9 @@
 # Speakeasy Color Theme
 
-A quiet version of the Solarized Light color theme with more grey and less blue.
+A simplified version of the Solarized Light color theme with more grey and less blue. Enjoy!
 
-<img width="680" alt="screenshot" src="https://github.com/winniethemu/speakeasy/assets/728719/5f2cbcbd-2ab0-432a-b97f-814986af1320">
+<img width="512" alt="Screenshot" src="https://github.com/winniethemu/speakeasy/assets/728719/0a380718-85a1-4e6a-8c5c-d00e2131e514">
 
-**Enjoy!**
+## Install
+
+[Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=winniethemu.speakeasy)
