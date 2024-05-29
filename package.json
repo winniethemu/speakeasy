@@ -2,6 +2,8 @@
   "name": "speakeasy",
   "displayName": "Speakeasy Theme",
   "description": "Minimalistic theme based on Solarized Light",
+  "repository": "https://github.com/winniethemu/speakeasy",
+  "publisher": "winniethemu",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.89.0"
