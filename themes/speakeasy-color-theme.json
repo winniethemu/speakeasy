@@ -40,7 +40,7 @@
 		// "widget.shadow": "",
 
 		// Editor
-		"editor.background": "#FDF6E3",
+		"editor.background": "#FFFFDD",
 		// "editor.findMatchBackground": "",
 		// "editor.findMatchHighlightBackground": "",
 		// "editor.findRangeHighlightBackground": "",
@@ -111,7 +111,7 @@
 
 		// Workbench: Tabs
 		// "tab.activeBackground": "",
-		"tab.activeBackground": "#FDF6E3",
+		"tab.activeBackground": "#FFFFDD",
 		// "tab.activeForeground": "",
 		"tab.activeModifiedBorder": "#CB4B16",
 		"tab.border": "#DDD6C1",
@@ -184,54 +184,42 @@
 		"terminal.ansiYellow": "#B58900",
 		// Set terminal background explicitly, otherwise selection becomes invisible when the
 		// terminal is in the side bar
-		"terminal.background": "#FDF6E3",
+		"terminal.background": "#FFFFDD",
 		// Interactive Playground
 		"walkThrough.embeddedEditorBackground": "#00000014"
 	},
 	"tokenColors": [
 		{
 			"settings": {
-				"foreground": "#657B83"
-			}
-		},
-		{
-			"scope": [
-				"meta.embedded",
-				"source.groovy.embedded",
-				"string meta.image.inline.markdown",
-				"variable.legacy.builtin.python"
-			],
-			"settings": {
-				"foreground": "#657B83"
+				"foreground": "#202224"
 			}
 		},
 		{
 			"name": "Comment",
 			"scope": "comment",
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#2AA198"
+				"foreground": "#81888F"
 			}
 		},
 		{
 			"name": "String",
 			"scope": "string",
 			"settings": {
-				"foreground": "#2AA198"
+				"foreground": "#202224"
 			}
 		},
 		{
 			"name": "Regexp",
 			"scope": "string.regexp",
 			"settings": {
-				"foreground": "#268BD2"
+				"foreground": "#202224"
 			}
 		},
 		{
 			"name": "Number",
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "#2AA198"
+				"foreground": "#202224"
 			}
 		},
 		{
@@ -241,14 +229,15 @@
 				"variable.other"
 			],
 			"settings": {
-				"foreground": "#606E6E"
+				"foreground": "#202224"
 			}
 		},
 		{
 			"name": "Keyword",
 			"scope": "keyword",
 			"settings": {
-				"foreground": "#B58900"
+				// Khaki 黄茶
+				"foreground": "#B68300"
 			}
 		},
 		{
@@ -256,7 +245,7 @@
 			"scope": "storage",
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#586E75"
+				"foreground": "#202224"
 			}
 		},
 		{
@@ -268,21 +257,21 @@
 				"entity.name.scope-resolution"
 			],
 			"settings": {
-				"foreground": "#606E6E"
+				"foreground": "#202224"
 			}
 		},
 		{
 			"name": "Function name",
 			"scope": "entity.name.function",
 			"settings": {
-				"foreground": "#606E6E"
+				"foreground": "#202224"
 			}
 		},
 		{
 			"name": "Variable start",
 			"scope": "punctuation.definition.variable",
 			"settings": {
-				"foreground": "#B58900"
+				"foreground": "#B68300"
 			}
 		},
 		{
@@ -302,7 +291,7 @@
 				"meta.preprocessor"
 			],
 			"settings": {
-				"foreground": "#B58900"
+				"foreground": "#B68300"
 			}
 		},
 		{
@@ -329,33 +318,35 @@
 			"name": "Inherited class",
 			"scope": "entity.other.inherited-class",
 			"settings": {
-				"foreground": "#6C71C4"
+				"foreground": "#268BD2"
 			}
 		},
 		{
 			"name": "Function argument",
 			"scope": "variable.parameter",
-			"settings": {}
+			"settings": {
+				"foreground": "#202224"
+			}
 		},
 		{
 			"name": "Tag name",
 			"scope": "entity.name.tag",
 			"settings": {
-				"foreground": "#606E6E"
+				"foreground": "#202224"
 			}
 		},
 		{
 			"name": "Tag start/end",
 			"scope": "punctuation.definition.tag",
 			"settings": {
-				"foreground": "#606E6E"
+				"foreground": "#202224"
 			}
 		},
 		{
 			"name": "Tag attribute",
 			"scope": "entity.other.attribute-name",
 			"settings": {
-				"foreground": "#606E6E"
+				"foreground": "#448dd1"
 			}
 		},
 		{
@@ -387,7 +378,7 @@
 				"support.class"
 			],
 			"settings": {
-				"foreground": "#B58900"
+				"foreground": "#B68300"
 			}
 		},
 		{
@@ -440,21 +431,21 @@
 			"name": "diff: inserted",
 			"scope": "markup.inserted",
 			"settings": {
-				"foreground": "#859900"
+				"foreground": "#B68300"
 			}
 		},
 		{
 			"name": "Markup Quote",
 			"scope": "markup.quote",
 			"settings": {
-				"foreground": "#859900"
+				"foreground": "#B68300"
 			}
 		},
 		{
 			"name": "Markup Lists",
 			"scope": "markup.list",
 			"settings": {
-				"foreground": "#B58900"
+				"foreground": "#B68300"
 			}
 		},
 		{
