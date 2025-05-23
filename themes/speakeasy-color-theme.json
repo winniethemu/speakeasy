@@ -110,8 +110,7 @@
 		"editorGroupHeader.tabsBackground": "#D9D2C2",
 
 		// Workbench: Tabs
-		// "tab.activeBackground": "",
-		"tab.activeBackground": "#FFFFDD",
+		"tab.activeBackground": "#EEE8D5",
 		// "tab.activeForeground": "",
 		"tab.activeModifiedBorder": "#CB4B16",
 		"tab.border": "#DDD6C1",
@@ -196,7 +195,10 @@
 		},
 		{
 			"name": "Comment",
-			"scope": "comment",
+			"scope": [
+				"comment",
+				"string.quoted.docstring.multi.python"
+			],
 			"settings": {
 				"foreground": "#81888F"
 			}
@@ -219,7 +221,7 @@
 			"name": "Number",
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "#202224"
+				"foreground": "#1B5BB3"
 			}
 		},
 		{
@@ -318,7 +320,7 @@
 			"name": "Inherited class",
 			"scope": "entity.other.inherited-class",
 			"settings": {
-				"foreground": "#268BD2"
+				"foreground": "#1B5BB3"
 			}
 		},
 		{
@@ -346,14 +348,14 @@
 			"name": "Tag attribute",
 			"scope": "entity.other.attribute-name",
 			"settings": {
-				"foreground": "#448dd1"
+				"foreground": "#1B5BB3"
 			}
 		},
 		{
 			"name": "Library function",
 			"scope": "support.function",
 			"settings": {
-				"foreground": "#268BD2"
+				"foreground": "#1B5BB3"
 			}
 		},
 		{
@@ -408,7 +410,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#268BD2"
+				"foreground": "#1B5BB3"
 			}
 		},
 		{
@@ -482,7 +484,6 @@
 			"name": "Markup Inline",
 			"scope": "markup.inline.raw",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#2AA198"
 			}
 		},
@@ -491,15 +492,14 @@
 			"scope": "markup.heading",
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#268BD2"
+				"foreground": "#1B5BB3"
 			}
 		},
 		{
 			"name": "Markup Setext Header",
 			"scope": "markup.heading.setext",
 			"settings": {
-				"fontStyle": "",
-				"foreground": "#268BD2"
+				"foreground": "#1B5BB3"
 			}
 		}
 	]
